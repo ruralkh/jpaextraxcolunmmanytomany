@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
+@Table
 public class Publisher {
     private int id;
     private String name;
